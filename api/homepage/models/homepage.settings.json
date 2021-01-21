@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "string"
+    },
+    "years": {
+      "type": "biginteger"
+    },
+    "clients": {
+      "type": "biginteger"
+    },
+    "trainings": {
+      "type": "biginteger"
+    },
+    "projects": {
+      "type": "biginteger"
+    }
+  }
+}
