@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_logos",
+  "info": {
+    "name": "Client Logo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "client_name": {
+      "type": "string"
+    },
+    "client_logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
