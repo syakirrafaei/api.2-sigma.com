@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "our_services",
   "info": {
-    "name": "Our Services"
+    "name": "Our Services",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,6 +18,18 @@
       "type": "text"
     },
     "content": {
+      "type": "text"
+    },
+    "training": {
+      "type": "text"
+    },
+    "website": {
+      "type": "text"
+    },
+    "mobile": {
+      "type": "text"
+    },
+    "infrastructure": {
       "type": "text"
     }
   }
