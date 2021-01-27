@@ -49,6 +49,12 @@
     },
     "Contact2": {
       "type": "string"
+    },
+    "Service_Tittle": {
+      "type": "string"
+    },
+    "Service_desc": {
+      "type": "richtext"
     }
   }
 }
