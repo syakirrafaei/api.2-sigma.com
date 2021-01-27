@@ -28,6 +28,27 @@
     },
     "projects": {
       "type": "biginteger"
+    },
+    "YearsContent": {
+      "type": "text"
+    },
+    "ClientsContent": {
+      "type": "text"
+    },
+    "TrainingContent": {
+      "type": "text"
+    },
+    "ProjectsContent": {
+      "type": "text"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "Contact1": {
+      "type": "string"
+    },
+    "Contact2": {
+      "type": "string"
     }
   }
 }
